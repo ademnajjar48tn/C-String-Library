@@ -10,7 +10,7 @@ string string_new(int size = 0){
 		return result;
 	}
 
-	string result = malloc(sizeof(char) * );
+	string result = malloc(sizeof(char) * size);
 
 	return result;
 }
